@@ -29,7 +29,6 @@ fun HomeScreen(
         is HelloMessageUIState.Success -> {
             Column {
                 Greeting(helloState.message, modifier)
-                Text("Prueba")
             }
         }
 
