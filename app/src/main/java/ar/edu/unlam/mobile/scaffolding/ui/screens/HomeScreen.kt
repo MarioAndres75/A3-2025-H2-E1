@@ -29,6 +29,7 @@ fun HomeScreen(
         is HelloMessageUIState.Success -> {
             Column {
                 Greeting(helloState.message, modifier)
+                Text("Equipo 1")
             }
         }
 
